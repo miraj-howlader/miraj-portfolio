@@ -20,7 +20,7 @@ export default function Header() {
 
                 <a href="./assets/dev-icon.png" download
                     className="px-10 py-2.5 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
-                    my resume <img src="./assets/download-icon.png" alt="" className="w-4 dark:invert" />
+                    my resume <img src="../../public/assets/CV.pdf" alt="" className="w-4 dark:invert" />
                 </a>
             </div>
         </div>
