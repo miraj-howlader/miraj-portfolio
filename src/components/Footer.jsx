@@ -1,5 +1,5 @@
 import { FacebookIcon, Github, Linkedin, LinkedinIcon } from 'lucide-react'
-import profile from '../../public/assets/avatar.png'
+import profile from '../images/miraj.png'
 import { FaGithub,FaLinkedin,FaFacebook   } from "react-icons/fa";
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="mt-20">
             <div className="text-center">
                 <a href="">
-                    <img src={profile} alt="" className="w-36 mx-auto mb-2" />
+                    <img src={profile} alt="" className="w-36 mx-auto mb-2 rounded-full border-2 border-green-500 bg-gray-200 dark:bg-gray-700" />
                     
                 </a>
 
