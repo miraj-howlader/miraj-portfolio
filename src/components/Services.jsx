@@ -16,7 +16,9 @@ import { BiSupport } from "react-icons/bi";
   {
     icon:<MdWebAssetOff/>,
     name: "Frontend Development",
-    description: "Building responsive, user-friendly interfaces using HTML, CSS, JavaScript, Reactjs, Nextjs, and related technologies."
+    description: "Building responsive, user-friendly interfaces using HTML, CSS, JavaScript, Reactjs, Nextjs, and related technologies.",
+   
+
   },
   {
     icon:<CiDatabase/>,
