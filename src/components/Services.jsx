@@ -25,12 +25,12 @@ import { BiSupport } from "react-icons/bi";
   },
   {
     icon:<FaDatabase/>,
-    name: "Database Design & Management",
+    name: "Database Design & Management  ",
     description: "Designing, implementing, and managing databases such as MySQL, PostgreSQL, and MongoDB."
   },
   {
     icon:<ImConnection/>,
-    name: "API Development & Integration",
+    name: "API Development & Integration  ",
     description: "Developing REST and GraphQL APIs and integrating third-party services."
   },
   {
