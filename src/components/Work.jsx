@@ -1,10 +1,14 @@
+
+
+
 export default function Work() {
     const work = [
         {
-            name: 'Frontend project',
-            icon: './assets/project-1.PNG',
+            name: 'FullStack',
+            icon: './assets/tiles.png',
             description: 'Web Design',
-            link: '',
+            link: 'https://assignment-8-six-pink.vercel.app/',
+            github: 'https://github.com/miraj-howlader/assignment-8'
         },
         
         {
@@ -41,9 +45,24 @@ export default function Work() {
                                 <p className="text-sm text-gray-700">{work.description}</p>
                             </div>
                             <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                                <img src="./assets/send-icon.png" alt="" className="w-5" />
+                             
                             </div>
+                             
                         </div>
+                         <div className="flex gap-4 justify-between">
+                                <a href={work.link}
+                                target="_blank">
+                               <button className=" items-center justify-center px-4 ml-2 mt-3 rounded-md py-0.5 font-semibold text-white transition-all duration-300 ease-in-out  group bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:scale-105 active:scale-95">
+                                Live
+                               </button>
+                               </a>
+                               <a href={work.github} 
+                               target="_blank">
+                               <button className=" items-center justify-center px-4 ml-2 mt-3 rounded-md mr-2 py-0.5 font-semibold text-white transition-all duration-300 ease-in-out  group bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:scale-105 active:scale-95">
+                                Github
+                               </button>
+                               </a>
+                               </div>
                     </div>
                 ))}
             </div>
@@ -52,6 +71,7 @@ export default function Work() {
                 <img src="./assets/right-arrow-bold.png" alt="" className="w-4 dark:hidden" />
                 <img src="./assets/right-arrow-bold-dark.png" alt="" className="w-4 hidden dark:block" />
             </a>
+            
 
         </div>
     )
