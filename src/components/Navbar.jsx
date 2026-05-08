@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import profilelogo from '../../public/assets/mirajlogo.webp'
+import profilelogo from '../images/logom.png'
 
 export default function Navbar() {
     const sideMenuRef = useRef();
@@ -54,7 +54,7 @@ export default function Navbar() {
             <nav ref={navRef} className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
 
                 <a href="">
-                    <img src={profilelogo} alt="Logo" className="w-14 cursor-pointer mr-14  rounded-full" />
+                    <img src={profilelogo} alt="Logo" className="w-16 cursor-pointer mr-14  rounded-full" />
                     
                 </a>
 

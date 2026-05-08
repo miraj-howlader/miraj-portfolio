@@ -1,11 +1,11 @@
-import profile from '../images/miraj.png'
+import profile from '../images/hand.png'
 import CV from '../images/mirajCV.pdf'
 
 export default function Header() {
     
     return (
         <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-            <img src={profile} alt="" className='w-60 rounded-full border-2 border-green-500 bg-gray-200 dark:bg-gray-700' />
+            <img src={profile} alt="" className='w-60 rounded-full border-2  bg-gray-200 dark:bg-gray-700' />
             <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
                 Hi! I&apos;m Miraj Howlader
                 <img src="./assets/hand-icon.png" alt="" className="w-6 mb-1" />

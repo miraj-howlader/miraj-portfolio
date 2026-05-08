@@ -1,6 +1,6 @@
-import { FacebookIcon, Github, Linkedin, LinkedinIcon } from 'lucide-react'
-import profile from '../images/miraj.png'
-import { FaGithub,FaLinkedin,FaFacebook   } from "react-icons/fa";
+import {Mail} from 'lucide-react'
+import profile from '../images/hand.png'
+import { FaGithub,FaLinkedin,FaFacebook, FaWhatsapp   } from "react-icons/fa";
 
 export default function Footer() {
     
@@ -13,11 +13,19 @@ export default function Footer() {
                 </a>
 
 
-                <div className="w-max flex items-center gap-2 mx-auto">
-                    <img src="./assets/mail_icon.png" alt="" className="w-5 dark:hidden" />
-                    <img src="./assets/mail_icon_dark.png" alt="" className="w-5 hidden dark:block" />
+                <div className="w-max flex  items-center gap-2 mx-auto">
+                    
+                    <div>
+                        <div className='flex gap-2 items-center'>
+                            <Mail/>
+                            <p>mirajhowlader9999@gmail.com</p>
+                        </div>
+                        <div className=' flex gap-2 items-center'>
+                            <FaWhatsapp size={24}/>
+                            <p> +88 01404576127</p>
+                        </div>
+                    </div>
 
-                    <a href="mailto:mirajhowlader9999@gmail.com">mirajhowlader9999@gmail.com</a>
                 </div>
             </div>
             <div className="text-center sm:flex items-center pb-28 justify-between border-t border-gray-400 mx-[10%] mt-12 py-3">

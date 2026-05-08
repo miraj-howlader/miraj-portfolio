@@ -6,28 +6,31 @@ export default function Work() {
         {
             name: 'FullStack',
             icon: './assets/tiles.png',
-            description: 'Web Design',
+            description: 'Tiles Gallery',
             link: 'https://assignment-8-six-pink.vercel.app/',
             github: 'https://github.com/miraj-howlader/assignment-8'
         },
         
         {
-            name: 'Social app',
-            icon: './assets/project-2.PNG',
-            description: 'Full Stack',
-            link: '',
+            name: 'FullStack',
+            icon: './assets/pixgen.png',
+            description: 'Pixgen Gallery',
+            link: 'https://image-generator-xi-blush.vercel.app/',
+            github: 'https://github.com/miraj-howlader/ImageGenerator'
         },
         {
-            name: 'WorkPlace site',
-            icon: './assets/project-3.PNG',
-            description: 'Full Stack',
-            link: '',
+            name: 'Cinema Wala',
+            icon: './assets/cin.png',
+            description: 'Frontend',
+            link: 'https://cine-ma-wala.vercel.app/',
+            github: 'https://github.com/miraj-howlader/CineMaWala'
         },
         {
-            name: 'Food Delivery',
-            icon: './assets/project-4.PNG',
-            description: 'Full Stack',
-            link: '',
+            name: 'A Gym Center',
+            icon: './assets/gim.png',
+            description: 'Frontend',
+            link: 'https://build-a-gym-website-using-react-js-and-tailwind-css.vercel.app/',
+            github: 'https://github.com/miraj-howlader/Build-A-Gym-Website-Using-React-JS-And-Tailwind-CSS'
         }
     ];
     return (
