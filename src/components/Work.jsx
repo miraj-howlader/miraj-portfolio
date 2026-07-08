@@ -5,10 +5,10 @@ export default function Work() {
     const work = [
         {
             name: 'FullStack',
-            icon: './assets/tiles.png',
-            description: 'Tiles Gallery',
-            link: 'https://assignment-8-six-pink.vercel.app/',
-            github: 'https://github.com/miraj-howlader/assignment-8'
+            icon: './assets/promt.png',
+            description: 'Prompt Marketplace',
+            link: 'https://client-phi-five-30.vercel.app/',
+            github: 'https://github.com/miraj-howlader/ai-promptenginering'
         },
         
         {
@@ -19,11 +19,11 @@ export default function Work() {
             github: 'https://github.com/miraj-howlader/ImageGenerator'
         },
         {
-            name: 'Cinema Wala',
-            icon: './assets/cin.png',
-            description: 'Frontend',
-            link: 'https://cine-ma-wala.vercel.app/',
-            github: 'https://github.com/miraj-howlader/CineMaWala'
+            name: 'Premium Booking Website',
+            icon: './assets/tutor.png',
+            description: 'FullStack',
+            link: 'https://tutor-client-kappa.vercel.app/',
+            github: 'https://github.com/miraj-howlader/tutor'
         },
         {
             name: 'A Gym Center',
