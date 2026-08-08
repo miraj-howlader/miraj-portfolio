@@ -1,5 +1,5 @@
 import profile from '../images/hand.png'
-import { LuFrame } from "react-icons/lu";
+
 
 export default function About() {
     
