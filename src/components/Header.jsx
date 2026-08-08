@@ -1,5 +1,5 @@
 import profile from '../images/hand.png'
-import CV from '../images/resumey.pdf'
+import CV from '../images/mirajresumey (2).pdf'
 
 export default function Header() {
     
